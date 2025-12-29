@@ -1,0 +1,22 @@
+# Секретные файлы
+.env
+.env.local
+*.env
+
+# Ключи и конфигурации
+config.py
+secrets.py
+keys.json
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
