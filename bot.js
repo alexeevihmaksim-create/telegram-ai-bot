@@ -3,7 +3,7 @@ import OpenAI from "openai";
 import fs from "fs";
 
 const TELEGRAM_TOKEN = "8568371182:AAG97He-RO40w3vsGhS9IcXO5LPs_4sV4Dk";
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "KLP_6FA";
 const ADMIN_ID = 5146123502;
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
@@ -237,3 +237,4 @@ PRO: ${pro}
 VIP: ${vip}`
   );
 });
+
